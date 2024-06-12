@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busch Franco Portfolio</title>
+</head>
+<body>
+
+    <div id="welcomeSec-Conteiner">
+        <div id="inicio" class="align-items-center d-flex justify-content-around">
+            <div id="contenedor-Nav">
+               <ul class="nav nav-pills d-flex justify-content-around" id="elementos-nav">
+                   <li class="nav-item dropdown-container">
+                       <select id="opciones" class="dropdown" onchange="handleDropdownChange()">
+                           <option value="es">Español</option>
+                           <option value="en">English</option>
+                           <option value="pr">Português</option>
+                       </select>
+                   </li>
+                  <li class="nav-item"><a href="#welcomeSec-Conteiner" class="nav-link " id="a" data-section="elementos-nav" data-value="main">Inicio</a></li>
+                  <li class="nav-item"><a href="#welcomeSec-Conteiner" class="nav-link " id="a" data-section="elementos-nav" data-value="portfolio">Portafolio</a></li>
+                  <li class="nav-item"><a href="#contact-Title" class="nav-link" id="a" data-section="elementos-nav" data-value="contact">Contacto</a></li>
+               </ul>
+              </div>
+           </div>
+   
+     <div class="container d-flex justify-content-center align-items-center gap-5" id="slogan-Conteiner">
+        <div id="bio-box">
+            <p class="llaves">function(){</p>
+            <h2 id="slogan" data-section="welcomeSec" data-value="slogan">Busch Franco</h2>
+            <h4>Desarrollador de aplicaciones web y móviles con conocimientos en Microsoft Dynamics 365</h4>
+            <p class="llaves">};</p>
+        </div>
+        <div>
+            <img id="welcomeSec-logo" style="width: 50vh;" src="Css/img/perfil.png" alt="">
+        </div>
+     </div>
+    </div>
+
+
+    <div style="background: linear-gradient(90deg, rgba(122,24,67,1) 36%, rgba(196,50,114,1) 100%);" class="p-5">
+        <div class="container">
+          <div class="d-flex justify-content-around align-items-center" id="who-conteiner">
+              <div>
+                <p class="llaves">"resumeContent":{</p>
+                  <p class="p-3" id="who-text" data-section="whoWeAre" data-value="description">
+                    <span class="code1">"content":</span> "Me llamo Franco Busch, originario de Buenos Aires, Argentina. Mi enfoque profesional se centra en el desarrollo web, la programación y las nuevas tecnologías.
+                    <br>
+                    Cuento con más de un año de experiencia en lenguajes de programación como X++, JavaScript, PHP y SQL. Además, he trabajado con herramientas clave como Gulp.js y SASS para optimizar y simplificar el código.
+                    <br>
+                    Desde mi infancia, he tenido una afinidad con la informática, reconociéndola como una puerta esencial hacia el ámbito laboral y el desarrollo global. La considero una pasión.
+                    <br>
+                    Trabajé como desarrollador de software, donde participé en la creación de una aplicación ERP de gestión financiera usando Microsoft Dynamics 365, con lenguajes como X++ y C# entre otros. Formé parte de un equipo de desarrollo donde además, colaboramos estrechamente con un equipo de testing en Brasil, que era parte del cliente. Trabajamos utilizando metodologías waterfall, siguiendo un proceso lineal y estructurado para completar cada fase del proyecto antes de avanzar a la siguiente.
+                    <br>
+                    Antes de desarrollar el ERP, trabajé como freelance realizando desarrollos web para algunas pymes. En estos proyectos, utilicé lenguajes y tecnologías como JavaScript, PHP y frameworks como Bootstrap y React, creando soluciones personalizadas y funcionales.
+                    <br>
+                    Actualmente, estoy aprendiendo inglés y sigo haciendo desarrollos web. Además, practico con tecnologías como C# y Python para seguir mejorando mis habilidades y mantenerme actualizado.
+                    <br>
+                    Estoy entusiasmado por seguir creciendo, aprendiendo y contribuyendo al progreso continuo en el campo de la tecnología y el desarrollo.",
+                  <p class="p-3"><span class="code1">"author_signature":</span> "Franco Busch"</p>
+                 <p class="llaves">}</p>
+                </div>
+          </div>
+       </div>
+      </div>
+
+
+
+    <div id="comoTrabajamos-background">
+    <div>
+        <div class="text-center" id="comoTrabajamos-titulo">
+            <h2 data-section="comoTrabajamos" data-value="title">Portfolio</h2>
+            <hr>
+        </div>
+        <div class="mt-4">
+            <p id="comoTrabajamos-desc" class="container" data-section="comoTrabajamos" data-value="description">En <span style="font-weight: bold;">Intellidev</span> nos encargamos de desarrollar sitios web adaptados a las necesidades de cada usuario brindándole una experiencia única. Como especialistas en diseño web, nos dedicamos a crear sitios adaptables y escalables que funcionan de manera óptima en cualquier dispositivo, ya sea un teléfono móvil, una tableta o una computadora de escritorio. Además, incorporamos características interactivas y personalizadas para mejorar la experiencia del usuario, garantizando así su satisfacción y compromiso.</p>
+            <hr style="color: white;">
+        </div>
+       <div class="d-flex" id="contenedor-comotrabajamos">
+        <div id="comoTrabajamos-Cards">
+            <div class="row justify-content-center" style="margin-left: 0;">
+                <div class="col-md-5 text-start">
+                    <h3 style="font-weight: bold;"><i class="fa-solid fa-mobile-screen-button"></i> Responsive</h3>
+                    <p data-section="comoTrabajamos" data-value="responsiveDesc">Tu sitio web <span>debe adaptarse a todos los dispositivos</span> para una experiencia de navegación óptima. Nos aseguramos de que cada elemento se vea bien en cualquier pantalla, manteniendo la estructura y el orden para una visualización perfecta.</p>
+                </div>
+                <div class="col-md-5 text-start">
+                    <h3 style="font-weight: bold;" data-section="comoTrabajamos" data-value="manageable"><i class="fa-solid fa-sliders"></i> Administrables</h3>
+                    <p data-section="comoTrabajamos" data-value="manageableDesc">Una vez en línea, podrás gestionar tu sitio web fácilmente. Esta ventaja es crucial, ya que a menudo se necesitan actualizaciones periódicas, como ajustes de precios, nuevos elementos o actualización de contenidos.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center" style="margin-left: 0;">
+                <div class="col-md-5 text-start">
+                    <h3 style="font-weight: bold;" data-section="comoTrabajamos" data-value="scalability"><i class="fa-solid fa-chart-simple" ></i> Escalable</h3>
+                    <p data-section="comoTrabajamos" data-value="scalabilityDesc">Diseñamos páginas web con capacidad de escalabilidad, listas para incorporar nuevas funcionalidades a medida que evoluciona tu negocio.</p>
+                </div>
+                <div class="col-md-5 text-start">
+                    <h3 style="font-weight: bold;"  data-section="comoTrabajamos" data-value="design" ><i class="fa-solid fa-palette"></i> Diseño</h3>
+                    <p data-section="comoTrabajamos" data-value="designDesc">Nuestro diseño web se enfoca en crear una experiencia excepcional para el usuario. Integramos el branding de tu marca de manera efectiva en el layout de la página, utilizando recursos gráficos, tipografías e iconos para garantizar una interacción fluida y atractiva.</p>
+                </div>
+            </div>
+        </div>
+      </div>  
+    </div>
+</div>
+
+
+<div id="contact">
+    <div class="container" id="contact-Title">
+        <h2 data-section="contactUs" data-value="title">"Contáctanos":{</h2>
+    </div>
+    <div class="container d-flex justify-content-around align-items-center" id="contactSection">
+        <div>
+            <h2 id="contact-desc2" data-section="contactUs" data-value="slogan">
+                Nos dedicamos a ser tu aliado en la materialización de tus ideas y en la clarificación de tus dudas. Queremos brindarte nuestro apoyo y experiencia. <br> <span>¡Contáctanos hoy mismo para empezar a trabajar juntos!</span> 
+            </h2>
+        </div>
+        <div id="contactForm-Background">
+            <form action="https://formspree.io/f/xgegqkgo" method="POST" id="contact-form">
+                <p class="llaves">"contactForm":{</p>
+                <div class="form-group">
+                  <label class="code1" for="nombre" data-section="contactUs" data-value="name">"Nombre":</label>
+                  <input type="text" class="form-control" id="nombre" name="name" placeholder='"name",' required>
+                </div>
+                <div class="form-group">
+                  <label class="code1" for="email" data-section="contactUs" data-value="email">"Email":</label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder='"email@hotmail.com",' required>
+                </div>
+                <div class="form-group">
+                  <label class="code1" for="tel" data-section="contactUs" data-value="tel">"Teléfono (opcional)":</label>
+                  <input type="tel" class="form-control" id="telefono" name="telefono" placeholder='"1131506458",'>
+                </div>
+                <div class="form-group">
+                  <label class="code1" for="mensaje" data-section="contactUs" data-value="idea">"Enseñanos tu idea o tu consulta":</label>
+                  <textarea type="text" class="form-control" id="mensaje" name="consulta" rows="3" required></textarea>
+                </div>
+                <button type="submit" id="btn-enviar" style="border-radius: 0.4rem; font-weight: 500; font-size: large;" data-section="contactUs" data-value="sent"><i class="fa-solid fa-terminal"></i> Enviar</button>
+                <p class="llaves">}</p>
+                <input type="hidden" name="_next" value="http://localhost:8000">
+              </form>
+        </div>
+    </div>
+    
+</div>
+
+
+
+
+    <footer style="background-color: white;">
+    <div class="container">    
+        <div class="d-flex flex-wrap" id="footer-secciones">
+            <div class="me-auto p-2">
+                <img style="width: 100%;" src="Css/img/logo.png" alt="">
+            </div>
+            <div class="p-2 footer-list">
+                <h2 style="color: #3a3a3a;" data-section="footer" data-value="contactus"><i class="fa-solid fa-envelope"></i> Contacto</h2>
+                <a href="#contact-Title" data-section="footer" data-value="contactForm">Formulario de Contacto</a>
+                <p data-section="footer" data-value="contactTel">Movil: (+54) 11 3150-6458</p>
+                <p data-section="footer" data-value="contactMail">Correo: francobusch30@gmail.com</p>
+                <p>Adrogué, Buenos Aires. Argentina</p>
+            </div>
+            <div class="p-2 footer-list" id="foot-empresa">
+                <h2 style="color: #3a3a3a;"><i class="fa-solid fa-users"></i> Portafolio</h2>
+                <a href="#who-titulo" data-section="footer" data-value="whoWeAre">Me presento</a>
+                <a href="#comoTrabajamos-titulo" data-section="footer" data-value="howWeWork">Portafolio</a>
+            </div>
+        </div>
+        <div class="border-top p-3">
+          <span class="text-body-secondary" data-section="footer" data-value="agency">© 2024 Intellidev, Agencia</span>
+        </div>
+    </div>
+      </footer>
+      <div id="chatbot">
+        <div id="chatbot-header" onclick="toggleChat()" class="d-flex justify-content-between align-items-center">
+            <h5 id="chatbot-title" class="text-start" data-section="chatbot" data-value="title">Asistentes en Linea</h5>
+            <p class="m-0">🟢</p>
+        </div>
+        <div id="chatbot-body" class="visible">
+            <iframe id="chatbot-chat"
+                src="https://www.chatbase.co/chatbot-iframe/2JOdCymMabN1vCiyUg7ZO"
+                title="Chatbot"
+                width="100%"
+                frameborder="0">
+            </iframe>
+        </div>
+    </div>
+            
+      <script src="Js/app.js" defer></script>
+      <script src="https://kit.fontawesome.com/55ffb50638.js" crossorigin="anonymous"></script>
+</body>
+</html>
